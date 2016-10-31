@@ -1,0 +1,11 @@
+git add .  //add all new files that have been created on local workspace
+git add -u  //check any changes on all files and update them
+git add -A  //do both of previous add
+
+git commit -m "message"  //commit the adds and "message" is the description of the commit, this only update on local
+
+git push //update those to remote GitHub
+
+git checkout -b BranchGit  //create a branch named BranchGit
+git branch  //check which branch I am in
+git checkout master  //switch back to the master branch
