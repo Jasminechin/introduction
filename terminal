@@ -1,0 +1,29 @@
+pwd  //display the path in which I am working
+
+clear  //clear all commands in this path
+
+ls  //list all files under this path
+ls -a //list all hidden & non-hidden files
+ls -a1 //list all hidden & non-hidden files & their details
+
+cd /User/JasminetwChin/Documents  //change directory
+cd ..   //change back one level
+cd  //change back to home directory
+
+mkdir /User/JasminetwChin/Documents/Gitdocuments  //make directory named Gitdocuments
+
+touch README //create an empty file named README
+
+cp README Music  //copy the file README to the folder Music
+cp -r Documents Music  //copy the content in Documents to Music
+
+rm README  //remove the folder README
+rm -r README  //remove the folder and all its content
+
+mv README Music  //move README to Music
+mv READEME READMEFIRST  //rename README to REAMEFIRST
+
+echo hello world!  //print whatever argument I put in
+
+date  //pring today's date and time
+
